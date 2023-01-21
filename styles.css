@@ -1,2 +1,6 @@
 
 /* Your CSS Code here. */
+textarea {
+    width: 100%;
+    height: 100px;
+}
