@@ -1,0 +1,4 @@
+{
+    "testRepo": "gre-essay-tool-solution",
+    "pathToFile": "cypress/integration/tests/test.spec.js"
+}
