@@ -3,5 +3,7 @@ const textbox = document.getElementById("evaluatedText");
 const wordCount = document.getElementById("wordCount");
 
 textbox.addEventListener("input", function() {
-    wordCount.innerHTML = this.value.trim().split(/\s+/).length;
+    let text = this.value.trim();
+    text = text.replace(/[^a-zA-Z0-9\s]/g, ""); // remove non-alphanumeric characters
+    wordCount.innerHTML = text.split(/\s+/).length;
 });
